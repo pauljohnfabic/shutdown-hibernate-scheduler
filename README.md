@@ -5,10 +5,11 @@
 Set the *clock time* you want the laptop to switch off — no more computing how many
 seconds to pass to `shutdown /t`. Pick `10:30 PM`, hit `SET`, done.
 
-```
-SET TIME
-[ 06:00 ] [ PM ] [ S ] [ H ] [ SET ]
-```
+![The scheduler, idle](docs/screenshot.png)
+
+Once armed, the `SET` box becomes `STOP` and the status line counts down:
+
+![The scheduler, armed and counting down](docs/screenshot-armed.png)
 
 ## Run it
 
@@ -65,6 +66,7 @@ Neither needs administrator rights for your own session.
 | `scheduler.ps1` | The whole app. |
 | `Run Scheduler.bat` | Launcher (hides the console window). |
 | `image.png` | The original UI mockup this was built from. |
+| `docs/` | Screenshots used above. |
 
 ---
 
